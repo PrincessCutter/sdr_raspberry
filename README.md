@@ -1,4 +1,4 @@
-# remote-sdr-radio
+# Remote Sdr Radio
 ### Система удалённого радиоприёма на базе SDR-приёмника и Raspberry Pi
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
@@ -72,7 +72,7 @@
 remote-sdr-radio/
 ├── radio_webserver.py
 ├── fm2_rx.py
-├── start_remote_radio.sh
+├── start_radio.sh
 ├── kill_all_radio.sh
 └── README.md
 ```
