@@ -9,17 +9,6 @@
 
 Проект демонстрирует реализацию удалённого радиоприёмника на базе `RTL-SDR` и `Raspberry Pi` с обработкой сигнала в `GNU Radio`, передачей аудиопотока через `FFmpeg` и управлением через веб-интерфейс на `Flask`.
 
-# remote-sdr-radio
-
-Система удалённого радиоприёма на базе SDR и Raspberry Pi с веб‑интерфейсом.
-
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![GNU Radio](https://img.shields.io/badge/GNU%20Radio-SDR-orange)
-![Flask](https://img.shields.io/badge/Flask-Web-black)
-![FFmpeg](https://img.shields.io/badge/FFmpeg-Streaming-green)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-5-red)
-
----
 
 ## Содержание
 
@@ -82,12 +71,9 @@
 ```text
 remote-sdr-radio/
 ├── radio_webserver.py
-├── radio_core.py
 ├── fm2_rx.py
 ├── start_remote_radio.sh
 ├── kill_all_radio.sh
-├── requirements.txt
-├── screenshots/
 └── README.md
 ```
 
